@@ -1,0 +1,5 @@
+2023-06-16 00:06:611 INFO  HomePage :37 - Clicking On Accept Cookies Button : [[ChromeDriver: chrome on WINDOWS (bc10461915114bee743ef8a28bb5caa0)] -> xpath: //label[@class = 'dialog_button'][@data-qa = 'accept-cookie-policy']]
+2023-06-16 00:06:710 INFO  HomePage :42 - Clicking On Poker Tab : [[ChromeDriver: chrome on WINDOWS (bc10461915114bee743ef8a28bb5caa0)] -> xpath: //span[@data-tracking='{"label":"Poker","section":"Top Nav","mvtVariant":"","mvtCampaign":""}']]
+2023-06-16 00:06:498 INFO  HomePage :37 - Clicking On Accept Cookies Button : [[ChromeDriver: chrome on WINDOWS (d187e8e2303ab1c0de4830f7fdd034de)] -> xpath: //label[@class = 'dialog_button'][@data-qa = 'accept-cookie-policy']]
+2023-06-16 00:06:586 INFO  HomePage :42 - Clicking On Poker Tab : [[ChromeDriver: chrome on WINDOWS (d187e8e2303ab1c0de4830f7fdd034de)] -> xpath: //span[@data-tracking='{"label":"Poker","section":"Top Nav","mvtVariant":"","mvtCampaign":""}']]
+2023-06-16 00:06:846 INFO  HomePage :49 - Verifying The Poker Games Text : [[ChromeDriver: chrome on WINDOWS (d187e8e2303ab1c0de4830f7fdd034de)] -> xpath: //h1[normalize-space()='Play our exciting Online Poker Games']]

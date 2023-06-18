@@ -1,0 +1,93 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "I Am On Virgin Games Home Page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background"
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2665577900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "As A User I want To Verify The Poker Link On Home Page Is Functioning As Expected",
+        "description": "",
+        "id": "verification-of-functioning-of-poker-games-link;as-a-user-i-want-to-verify-the-poker-link-on-home-page-is-functioning-as-expected",
+        "after": [
+          {
+            "result": {
+              "duration": 669734000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 126635400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I Click On Accept Cookies",
+            "match": {
+              "location": "PokerSteps.iClickOnAcceptCookies()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 82951500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I Click On Poker Tab",
+            "match": {
+              "location": "PokerSteps.iClickOnPokerTab()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 256166400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Poker Tab Opens Poker Games Page And Displays \u0027Play our exciting Online Poker Games\u0027 Message",
+            "match": {
+              "location": "PokerSteps.pokerTabOpensPokerGamesPageAndDisplaysPlayOurExcitingOnlinePokerGamesMessage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@regression"
+          }
+        ]
+      }
+    ],
+    "name": "Verification Of Functioning Of Poker Games Link",
+    "description": "",
+    "id": "verification-of-functioning-of-poker-games-link",
+    "keyword": "Feature",
+    "uri": "poker.feature"
+  }
+]
